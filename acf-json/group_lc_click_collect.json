@@ -1,0 +1,23 @@
+{
+    "key": "group_lc_click_collect",
+    "title": "LC Click Collect",
+    "fields": [
+        {
+            "key": "field_lc_click_collect_title",
+            "label": "LC Click Collect",
+            "name": "title",
+            "type": "message"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/lc-click-collect"
+            }
+        ]
+    ],
+    "active": 1,
+    "description": ""
+}

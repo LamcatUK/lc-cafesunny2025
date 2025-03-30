@@ -1,0 +1,61 @@
+:root {
+  /* Colours */
+  --hsl-dark: 0 0% 20%; // black
+  --col-dark: hsl(var(--hsl-dark));
+
+  --hsl-light: 0 0% 98%; // light grey
+  --col-light: hsl(var(--hsl-light));
+
+  --col-white: #ffffff;
+
+  --hsl-blue-400: 199 39% 57%; // #65a1bc;
+  --col-blue-400: hsl(var(--hsl-blue-400));
+
+  --hsl-blue-200: 194 79% 49%; // #1ab0de;
+  --col-blue-200: hsl(var(--hsl-blue-200));
+
+  --hsl-grey-100: 203 51% 92%; // #e0edf5
+  --col-grey-100: hsl(var(--hsl-grey-100));
+
+  --hsl-grey-400: 0 0% 83%; // #d3d3d3
+  --col-grey-400: hsl(var(--hsl-grey-400));
+
+  --hsl-accent-400: 25 86% 51%; // #ee7118
+  --col-accent-400: hsl(var(--hsl-accent-400));
+
+  --hsl-accent-900: 0 11% 33%; // #5C4A4A
+  --col-accent-900: hsl(var(--hsl-accent-900));
+
+  --bs-link-color: var(--col-dark);
+  --bs-link-hover-color: #e3ac92 !important;
+
+  /* Font Sizes */
+
+  --fs-900: 3.333rem; /* 60px */
+  --fs-800: 2.667rem; /* 48px */
+  --fs-700: 2rem; /* 36px */
+  --fs-600: 1.333rem; /* 24px */
+  --fs-500: 1.111rem; /* 20px */
+  --fs-400: 1rem; /* 18px */
+  --fs-300: 0.875rem; /* 15.75px */
+  --fs-200: 0.75rem; /* 13.5px */
+  --fs-100: 0.667rem; /* 12px */
+
+  /* Font Families */
+  --ff-body: "Open Sans", Tahoma, Geneva, Verdana, sans-serif;
+  --ff-heading: "Domine", Georgia, "Times New Roman", serif;
+  --ff-hand: "Satisfy", cursive;
+  --ff-fa: "Font Awesome 6 Pro";
+
+  /* Font Weights */
+  --fw-400: 400;
+  --fw-600: 600;
+  --fw-800: 700;
+
+  /* Effects */
+  --transition: 250ms ease-out;
+
+  /* Site General */
+  --h-top: 82px;
+  --h-top-desktop: 125px;
+}

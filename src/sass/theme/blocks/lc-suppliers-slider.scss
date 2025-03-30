@@ -1,0 +1,18 @@
+.suppliers {
+  .supplier__image {
+    max-width: 100%;
+    margin: auto;
+    max-height: 120px;
+    transition: all var(--transition);
+    filter: grayscale(100%);
+    opacity: 0.6;
+  }
+  .supplier__image:hover {
+    filter: none;
+    opacity: 1;
+  }
+
+  .supplier__image__container {
+    text-align: center;
+  }
+}

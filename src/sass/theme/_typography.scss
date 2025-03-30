@@ -1,0 +1,148 @@
+/* satisfy-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Satisfy";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/satisfy-v21-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-v40-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/open-sans-v40-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* domine-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/domine-v23-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* domine-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/domine-v23-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+  font-variant-ligatures: none;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: var(--ff-body);
+  font-weight: var(--fw-400);
+  font-size: 1rem;
+  // line-height: 1.556;
+  line-height: 1.4;
+  font-style: normal;
+  color: var(--col-dark);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ff-body {
+  font-family: var(--ff-body) !important;
+}
+.ff-hand {
+  font-family: var(--ff-hand);
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  font-family: var(--ff-heading);
+  font-weight: var(--fw-800);
+  line-height: 1.1;
+  text-wrap: balance;
+  margin-bottom: 0.5rem;
+}
+
+h1,
+.h1 {
+  font-size: var(--fs-900);
+}
+h2,
+.h2 {
+  font-size: var(--fs-800);
+}
+h3,
+.h3 {
+  font-size: var(--fs-700);
+}
+h4,
+.h4 {
+  font-size: var(--fs-600);
+}
+h5,
+.h5 {
+  font-size: var(--fs-500);
+}
+
+.fs-900 {
+  font-size: var(--fs-900);
+}
+.fs-800 {
+  font-size: var(--fs-800);
+}
+.fs-700 {
+  font-size: var(--fs-700);
+}
+
+.has-large-font-size,
+.fs-600 {
+  font-size: var(--fs-600);
+}
+
+.fs-500 {
+  font-size: var(--fs-500);
+}
+.fs-400 {
+  font-size: var(--fs-400);
+}
+.fs-300 {
+  font-size: var(--fs-300);
+}
+
+.fw-400 {
+  font-weight: var(--fw-400);
+}
+strong,
+.fw-bold,
+.fw-600 {
+  font-weight: var(--fw-600);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.w-constrained {
+  max-width: 90ch;
+  margin-inline: auto;
+}
+
+// p:not([class]) {
+//     max-width: 70ch;
+// }

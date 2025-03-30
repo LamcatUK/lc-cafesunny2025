@@ -1,0 +1,23 @@
+{
+    "key": "group_lc_wide_cta",
+    "title": "LC Wide CTA",
+    "fields": [
+        {
+            "key": "field_lc_wide_cta_title",
+            "label": "LC Wide CTA",
+            "name": "title",
+            "type": "message"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/lc-wide-cta"
+            }
+        ]
+    ],
+    "active": 1,
+    "description": ""
+}

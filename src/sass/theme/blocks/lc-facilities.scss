@@ -1,0 +1,16 @@
+.facilities {
+  .icon-block {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .icon-block img {
+    max-height: 64px;
+  }
+
+  .icon-title {
+    text-align: center;
+    font-family: var(--ff-heading);
+    font-weight: 400;
+    font-size: var(--fs-500);
+  }
+}

@@ -1,0 +1,25 @@
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  font-size: var(--fs-400);
+  font-weight: var(--fw-600);
+  background: var(--col-accent-400);
+  color: white;
+  border-radius: 100vh;
+  transition: color var(--transition), background-color var(--transition);
+  z-index: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.button:hover,
+.button:focus,
+.button:focus-visible {
+  color: white;
+  background-color: var(--col-blue-200);
+}
